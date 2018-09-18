@@ -10,7 +10,12 @@ def batch_badge_creator(attendees)
   badges
 end
 
-# [5,6,7].each_with_index do |x,i|
+#[5,6,7].each_with_index do |x,i|
+
+#puts "#{i} -> #{x}"
+#end
+
+#Outputs: 0 -> 5 1 -> 6 2 -> 7
 
 def assign_rooms(attendees)
   room_assignments = []
