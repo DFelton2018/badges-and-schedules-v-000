@@ -17,8 +17,10 @@ end
 
 #Outputs: 0 -> 5 1 -> 6 2 -> 7
 
+#a = [11,22,31,224,44].each.with_index { |val,index| puts "index: #{index} for #{val}" if val < 30}
+
 def assign_rooms(attendees)
   room_assignments = []
-  attendees.each{|attendee| room_assignments << "Hello, #{attendee}! You'll be assigned to #{room.each_with_index}!"}
+  attendees.each_with_index {|val,index| room_assignments << "Hello, #{val}! You'll be assigned to room #{index}!"}
   room_assignments
 end
