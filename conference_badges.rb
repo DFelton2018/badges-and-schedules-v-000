@@ -14,7 +14,6 @@ def assign_rooms(attendees)
   room_assignments
 end
 
-def printer(attendees)
-  badges_and_room_assignments = [badges, room_assignments]
-  badges_and_room_assignments
+def printer
+  badges_and_room_assignments 
 end
